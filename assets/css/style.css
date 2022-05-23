@@ -6,67 +6,67 @@
   margin: 0;
 }
 
+img {
+  border-radius: 50%;
+}
+
 .logo {
   position: relative;
   margin-top: 10px;
   height: 150px;
 }
 
-  body {
-      font-family: Roboto, sans-serif;
-      line-height: 3;
-      background: #0892d0;
-      color: #fff;
-  }
+body {
+  font-family: Roboto, sans-serif;
+  line-height: 3;
+  background: #0892d0;
+  color: #fff;
+}
 
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 20px;
-    margin-bottom: 50px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin-bottom: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-  #left-about {
-    padding-top: 20px;
-    margin-left: 250px;
-    width: 40%;
-    float: left;
+#left-about {
+  padding-top: 20px;
+  margin-left: 200px;
+  width: 45%;
+  float: left;
 }
 
 #right-about {
-    padding-top: 20px;
-    margin-right: 50px;
-    width: 40%;
-    float: right;
+  padding-top: 20px;
+  width: 30%;
+  float: right;
 }
 
-  .restart-btn {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
+.restart-btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 200px;
+  margin-top: 50px;
+  float:left
+}
 
-  .footer {
-    max-width: 100%;
-    margin: auto;
-    overflow: hidden;
-    text-align: center;
-    padding: 10px 25px;
-    font-size: 20px;
-    height: 80px;
-    background-color: #808080; 
-  }
-
-  img {
-    border-radius: 50%;
-  }
-
-
+.footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 60px;
+  width: auto;
+  text-align: center;
+  font-size: 100%;
+  background-color: #808080;
+  position: absolute;
+}
