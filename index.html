@@ -11,38 +11,44 @@
 </head>
 
 <body>
-    <div class="container">
-        <header class="header">
-            <h1 class="logo"><img src="assets/images/rock-image.png" alt="hand making a rock image"> <img
-                    src="assets/images/paper-image.png" alt="hand making a paper image">
-                <img src="assets/images/scissors-image.png" alt="hand making a scissor image">
-            </h1>
+    <div class="logo">
+        <header>
+            <h1><span style="color: rgb(221, 54, 157);"> Rock</span><span style="color:yellow"> Paper</span> <span style="color:cyan">Scissors</span></h1>
         </header>
     </div>
 
-    <div id="left-about">
-        <h2>Your Choice: <span id="user-choice"></span></h2>
-    </div>
+    <section class="gaming-section">        
+        <div id="left-about">
+            <h2>Your Choice:<span id="user-choice"></span></h2>
+                <img src="assets/images/rock-image.png" alt="hand making a rock image">
+                <br>
+                <img src="assets/images/paper-image.png" alt="hand making a paper image">
+                <img src="assets/images/scissors-image.png" alt="hand making a scissor image">
+        </div>
 
-    <div id="right-about">
-        <h2>Computer Choice:<span id="computer choice"></span></h2>
-    </div>
+        <div id="right-about">
+            <h2>Computer Choice:<span id="computer choice"></span></h2>
+            <img src="assets/images/rock-image.png" alt="hand making a rock image">
+            <br> 
+            <img src="assets/images/paper-image.png" alt="hand making a paper image">
+            <img src="assets/images/scissors-image.png" alt="hand making a scissor image">
+        </div>
 
-    <div id="left-about">
-        <h2>Result:<span id="result"></span></h2>
-    </div>
+        <div id="left-about">
+            <h3>Your Score:<span id="your-score"></span></h3>
+        </div>
 
-    <div id="left-about">
-        <h3>Your Score:</h3>
-    </div>
+        <div id="right-about">
+            <h3>Computer Score:<span id="computer-score"></span></h3>
+        </div>
 
-    <div id="right-about">
-        <h3>Computer Score:</h3>
-    </div>
+        <div>
+            <button class="restart-btn" type="button" onclick="alert('Restart Game!')">Restart Game</button>
+        </div>
 
-    <button class="restart-btn" type="button" onclick="alert('Restart Game!')">Restart Game</button>
+    </section>
 
-    <footer class="footer">This game is an educational project only - 2022</footer>
+    <footer class="footer">This game is intended for project use only - 2022</footer>
     <script src="assets/js/script.js"></script>
 </body>
 
