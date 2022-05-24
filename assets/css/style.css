@@ -87,13 +87,14 @@ body {
 }
 
 .footer {
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 60px;
+
+  height: 10vh;
   padding-top: 10px;
   width: 100%;
   text-align: center;
   background-color: #808080;
   position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }

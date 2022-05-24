@@ -11,28 +11,27 @@
 
 <body>
 
-        <header>
-            <h1><span style="color: rgb(221, 54, 157);"> Rock</span><span style="color:yellow"> Paper</span> <span style="color:cyan">Scissors</span></h1>
-        </header>
+    <header>
+        <h1><span style="color: rgb(221, 54, 157);"> Rock</span><span style="color:yellow"> Paper</span> <span
+                style="color:cyan">Scissors</span></h1>
+    </header>
 
     <section class="gaming-section">
 
-        <h2>Result:<span id="result"></span></h2>
-       
+        <button class="restart-btn" type="button" onclick="alert('Restart Game!')">Restart Game</button>
+
         <div class="left-about">
             <h2>Your Choice:<span id="user-choice"></span></h2>
-            <br>
             <img src="assets/images/rock-image.png" alt="rock" id="computer-choice">
-            <br> 
+            <br>
             <img src="assets/images/paper-image.png" alt="paper" id="computer-choice">
             <img src="assets/images/scissors-image.png" alt="scissor" id="computer-choice">
         </div>
 
         <div class="right-about">
             <h2>Computer Choice:<span id="computer-choice"></span></h2>
-            <br>
             <img src="assets/images/rock-image.png" alt="rock" id="computer-choice">
-            <br> 
+            <br>
             <img src="assets/images/paper-image.png" alt="paper" id="computer-choice">
             <img src="assets/images/scissors-image.png" alt="scissor" id="computer-choice">
         </div>
@@ -45,7 +44,9 @@
             <h3>Computer Score: <span id="computer-score">0</span></h3>
         </div>
 
-        <button class="restart-btn" type="button" onclick="alert('Restart Game!')">Restart Game</button>
+        <div class="result">
+            <h2>Result:<span id="result"></span></h2>
+        </div>
 
     </section>
 
