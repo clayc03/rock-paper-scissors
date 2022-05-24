@@ -7,48 +7,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://kit.fontawesome.com/b1d4a69a44.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="logo">
+
         <header>
             <h1><span style="color: rgb(221, 54, 157);"> Rock</span><span style="color:yellow"> Paper</span> <span style="color:cyan">Scissors</span></h1>
         </header>
-    </div>
 
-    <section class="gaming-section">        
-        <div id="left-about">
+    <section class="gaming-section">
+
+        <h2>Result:<span id="result"></span></h2>
+       
+        <div class="left-about">
             <h2>Your Choice:<span id="user-choice"></span></h2>
-                <img src="assets/images/rock-image.png" alt="hand making a rock image">
-                <br>
-                <img src="assets/images/paper-image.png" alt="hand making a paper image">
-                <img src="assets/images/scissors-image.png" alt="hand making a scissor image">
-        </div>
-
-        <div id="right-about">
-            <h2>Computer Choice:<span id="computer choice"></span></h2>
-            <img src="assets/images/rock-image.png" alt="hand making a rock image">
+            <br>
+            <img src="assets/images/rock-image.png" alt="rock" id="computer-choice">
             <br> 
-            <img src="assets/images/paper-image.png" alt="hand making a paper image">
-            <img src="assets/images/scissors-image.png" alt="hand making a scissor image">
+            <img src="assets/images/paper-image.png" alt="paper" id="computer-choice">
+            <img src="assets/images/scissors-image.png" alt="scissor" id="computer-choice">
         </div>
 
-        <div id="left-about">
-            <h3>Your Score:<span id="your-score"></span></h3>
+        <div class="right-about">
+            <h2>Computer Choice:<span id="computer-choice"></span></h2>
+            <br>
+            <img src="assets/images/rock-image.png" alt="rock" id="computer-choice">
+            <br> 
+            <img src="assets/images/paper-image.png" alt="paper" id="computer-choice">
+            <img src="assets/images/scissors-image.png" alt="scissor" id="computer-choice">
         </div>
 
-        <div id="right-about">
-            <h3>Computer Score:<span id="computer-score"></span></h3>
+        <div class="left-about">
+            <h3>Your Score: <span id="your-score">0</span></h3>
         </div>
 
-        <div>
-            <button class="restart-btn" type="button" onclick="alert('Restart Game!')">Restart Game</button>
+        <div class="right-about">
+            <h3>Computer Score: <span id="computer-score">0</span></h3>
         </div>
+
+        <button class="restart-btn" type="button" onclick="alert('Restart Game!')">Restart Game</button>
 
     </section>
 
     <footer class="footer">This game is intended for project use only - 2022</footer>
+
     <script src="assets/js/script.js"></script>
 </body>
 

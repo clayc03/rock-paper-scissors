@@ -10,12 +10,13 @@ img {
   border-radius: 50%;
 }
 
-.logo {
+header {
   text-align: center;
   font-size: 30px;
   line-height: 75px;
   padding-top: 5px;
   height: 100px;
+  letter-spacing: 2px;
 }
 
 h1 {
@@ -24,28 +25,51 @@ h1 {
 
 body {
   font-family: Roboto, sans-serif;
-  line-height: 2;
+  line-height: 3;
   background: #0892d0;
   color: #fff;
 }
 
 .gaming-section {
+    justify-content: space-evenly;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
-#left-about {
+.left-about-heading {
+  width: 70%;
+  float: right;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+
+}
+
+.left-about {
   padding-top: 10px;
   width: 40%;
   float: left;
+  height: 100%;
+
 }
 
-#right-about {
+.right-about-heading {
+  width: 70%;
+  float: left;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+
+}
+
+.right-about {
   padding-top: 10px;
   width: 40%;
   float: right;
+  height: 100%;
+
 }
 
 .restart-btn {
@@ -53,11 +77,9 @@ body {
   border: none;
   color: white;
   padding: 15px 32px;
-  text-align: center;
   text-decoration: none;
   font-size: 16px;
-  margin-top: 50px;
-  float:left
+  position: relative;
 }
 
 .footer {
@@ -65,10 +87,13 @@ body {
   right: 0;
   bottom: 0;
   height: 60px;
-  padding-top: 5px;
-  width: auto;
+  padding-top: 10px;
+  width: 100%;
   text-align: center;
-  font-size: 100%;
   background-color: #808080;
   position: absolute;
+}
+
+/*[type=submit]:hover {
+  background-color: green;
 }
