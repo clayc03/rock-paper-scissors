@@ -8,13 +8,9 @@
 
 header {
   text-align: center;
-  font-size: 30px;
-  line-height: 75px;
-  padding-top: 5px;
+  font-size: 25px;
+  height: 12vh;
   letter-spacing: 2px;
-}
-
-h1 {
   text-shadow: 0 0 5px black;
 }
 
@@ -25,7 +21,10 @@ body {
   font-family: Roboto, sans-serif;
   background: #fff;
   color: #333;
-  justify-content: space-evenly;
+}
+
+.game-result {
+  height: 2vh
 }
 
 .button {
@@ -45,13 +44,10 @@ body {
   background-color: #87CEEB;
 }
 
-
 .gaming-section {
-    justify-content: space-evenly;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
 }
 
 .left-about {
@@ -68,14 +64,18 @@ body {
   height: 100%;
 }
 
+#player-choice, #computer-choice {
+  width: 70%;
+}
+
 .footer {
   height: 10vh;
   padding-top: 20px;
   width: 100%;
   text-align: center;
   background-color: #87CEEB;
-  position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
+  position: absolute;
 }
