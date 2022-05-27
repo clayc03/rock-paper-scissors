@@ -82,10 +82,6 @@ body {
   position: relative;
 }
 
-.restart-btn:hover {
-  background: darkgreen;
-}
-
 .footer {
 
   height: 10vh;
