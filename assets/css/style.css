@@ -12,11 +12,9 @@ img {
 
 header {
   text-align: center;
-  font-size: 30px;
-  line-height: 75px;
+  font-size: 20px;
   padding-top: 5px;
-  height: 100px;
-  letter-spacing: 2px;
+  height: 70px;
 }
 
 h1 {
@@ -24,8 +22,10 @@ h1 {
 }
 
 body {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
   font-family: Roboto, sans-serif;
-  line-height: 3;
   background: #fff;
   color: #333;
 }
@@ -38,29 +38,11 @@ body {
     text-align: center;
 }
 
-.left-about-heading {
-  width: 70%;
-  float: right;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
-
-}
-
 .left-about {
   padding-top: 10px;
   width: 40%;
   float: left;
   height: 100%;
-
-}
-
-.right-about-heading {
-  width: 70%;
-  float: left;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
 
 }
 
@@ -70,16 +52,6 @@ body {
   float: right;
   height: 100%;
 
-}
-
-.restart-btn {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-decoration: none;
-  font-size: 16px;
-  position: relative;
 }
 
 .footer {
