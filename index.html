@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
     <header>
         <h1><span style="color: rgb(221, 54, 157);"> Rock</span><span style="color:yellow"> Paper</span> <span
                 style="color:cyan">Scissors</span></h1>
@@ -18,11 +17,14 @@
 
     <section class="gaming-section">
 
+        <div id="game-result"></div>
+
         <div class="left-about">
-            <img src="assets/images/rock-image.png" alt="rock" id="computer-choice">
+            <img src="assets/images/rock-image.png" alt="rock" id="player-choice">
             <br>
-            <img src="assets/images/paper-image.png" alt="paper" id="computer-choice">
-            <img src="assets/images/scissors-image.png" alt="scissor" id="computer-choice">
+            <img src="assets/images/paper-image.png" alt="paper" id="player-choice">
+            <img src="assets/images/scissors-image.png" alt="scissor" id="player-choice">
+            <h2>Player Score: <span id="your-score">0</span></h2>
         </div>
 
         <div class="right-about">
@@ -30,15 +32,16 @@
             <br>
             <img src="assets/images/paper-image.png" alt="paper" id="computer-choice">
             <img src="assets/images/scissors-image.png" alt="scissor" id="computer-choice">
+            <h2>Computer Score: <span id="computer-score">0</span></h2>
         </div>
 
-        <div class="left-about">
-            <h3>Your Score: <span id="your-score">0</span></h3>
-        </div>
 
-        <div class="right-about">
-            <h3>Computer Score: <span id="computer-score">0</span></h3>
-        </div>
+            <h2>Your pick:</h2>
+            <div class="button">
+                <button aria-label="Rock" data-choice="0">Rock</button>
+                <button aria-label="Paper" data-choice="1">Paper</button>
+                <button aria-label="Scisssors" data-choice="2">Scisssors</button>
+            </div>
 
     </section>
 
