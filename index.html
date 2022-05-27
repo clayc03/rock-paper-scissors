@@ -14,11 +14,17 @@
         <h1>
         <span style="color:#dd369d"> Rock</span>
         <span style="color: #ffff00"> Paper</span> 
-        <span style="color: #00ffff">Scissors</span>
-    </h1>
+        <span style="color: #5cbbe1">Scissors</span>
+        </h1>
     </header>
 
     <section class="gaming-section">
+            <div>
+                <h2>Your Pick:</h2>
+                <button aria-label="Rock" data-choice="0" class="button">rock</button>
+                <button aria-label="Paper" data-choice="1" class="button">paper</button>
+                <button aria-label="Scissors" data-choice="2" class="button">scissors</button>
+            </div>
 
         <div id="game-result"></div>
 
@@ -37,17 +43,6 @@
             <img src="assets/images/scissors-image.png" alt="scissor" id="computer-choice">
             <h2>Computer Score: <span id="computer-score">0</span></h2>
         </div>
-
-        <div class="options">
-            <h2 class="picks">Your Pick:</h2>
-            <br>
-            <div class="buttons">
-                <button aria-label="Rock" data-choice="0">rock</button>
-                <button aria-label="Paper" data-choice="1">paper</button>
-                <button aria-label="Scissors" data-choice="2">scissors</button>
-            </div>
-        </div>
-
     </section>
 
     <footer class="footer">This game is intended for project use only - 2022</footer>
