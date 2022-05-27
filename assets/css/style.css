@@ -26,18 +26,15 @@ h1 {
 body {
   width: 100%;
   text-align: center;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 10px;
   font-family: Roboto, sans-serif;
   background: #fff;
   color: #333;
-  height: 70vh;
   justify-content: space-evenly;
 }
 
 .button {
-  background-color: #4eb752;
+  background-color: #3dab41;
   border: none;
   color: #fff;
   width: 75px;
@@ -53,12 +50,14 @@ body {
   background-color: #87CEEB;
 }
 
+
 .gaming-section {
     justify-content: space-evenly;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    height: 100vh;
 }
 
 .left-about {
