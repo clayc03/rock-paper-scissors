@@ -22,11 +22,15 @@ for (let button of buttons) {
 
 function playGame(yourChoice) {
 
-    yourChoice.src = `assets/images/${choices[yourChoice]}.png`;
+    yourChoice.src = `assets/images/game-image/${choices[yourChoice]}.png`;
     yourChoice.alt = choices[yourChoice];
 
     let computerChoice = Math.floor(Math.random() * 3);
 
-    computerChoice.src = `assets/images/${choices[computerChoice]}.png`;
-    computerChoice.alt
+    computerChoice.src = `assets/images/game-image/${choices[computerChoice]}.png`;
+    computerChoice.alt = choice[computerChoice];
+
+    let result = checkWinner(choices[computerChoice], choices[yourChoice]);
+
+    updateScores(result);
 }
