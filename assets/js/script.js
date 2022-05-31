@@ -2,9 +2,11 @@ const userChoiceDisplay = document.getElementById("user-choice")
 const computerChoiceDisplay = document.getElementById("computer-choice")
 const resultDisplay = document.getElementById("result")
 const possibleChoices = document.querySelectorAll("button")
+//const gameScore = document.getElementById("score")
 let userChoice
 let computerChoice
 let result
+//let score
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     userChoice = e.target.id
