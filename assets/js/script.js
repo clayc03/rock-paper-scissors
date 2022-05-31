@@ -1,5 +1,7 @@
+const yourChoiceDisplay = document.getElementById('your-choice')
+const yourScore = document.getElementById('your-score')
 const computerChoiceDisplay = document.getElementById('computer-choice')
-const userChoiceDisplay = document.getElementById('user-choice')
+const computerScore = document.getElementById('computer-score')
 const resultDisplay = document.getElementById('result')
 const possibleChoices = document.querySelectorAll('button')
 let userChoice
