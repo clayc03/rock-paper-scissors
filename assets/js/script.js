@@ -71,4 +71,21 @@ function addPoint(winner) {
     let currentScore = parseInt(scoreBoard.innerText);
     currentScore +=1;
     scoreBoard.innerText = currentScore;
+    if (checkForWinner(currentScore)){
+        if (winner === "computer"){
+            alert("You Lose!");
+            location.reload();
+        }else if (winner === "user"){
+            alert("You Win!");
+            location.reload();
+        }
+    }
+}
+
+function checkForWinner(currentScore) {
+    if (currentScore == 5) {
+        return true;
+    } else{
+        return false;
+    }
 }
