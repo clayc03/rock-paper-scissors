@@ -23,33 +23,6 @@ body {
   color: #333;
 }
 
-.game-result {
-  height: 2vh
-}
-
-.button {
-  background-color: #3dab41;
-  border: none;
-  color: #fff;
-  width: 75px;
-  height: 50px;
-  padding: 5px 10px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 15px;
-  cursor: pointer;
-}
-
-.button:hover {
-  background-color: #87CEEB;
-}
-
-.gaming-section {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .left-about {
   padding-top: 10px;
   width: 40%;
@@ -62,10 +35,6 @@ body {
   width: 40%;
   float: right;
   height: 100%;
-}
-
-#your-choice, #computer-choice {
-  width: 70%;
 }
 
 .footer {

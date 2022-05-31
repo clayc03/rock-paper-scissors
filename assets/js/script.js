@@ -3,11 +3,16 @@ const yourScore = document.getElementById('your-score')
 const computerChoiceDisplay = document.getElementById('computer-choice')
 const computerScore = document.getElementById('computer-score')
 const resultDisplay = document.getElementById('result')
-const possibleChoices = document.querySelectorAll('button')
-let userChoice
+const possibleChoice = document.querySelectorAll('button')
+let yourChoice
 
-possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
-    userChoice = e.target.id
-    userChoiceDisplay.innerHTML = userChoice
+possibleChoice.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
+    yourChoice = e.target.id
+    yourChoiceDisplay.innerHTML = userChoice
     generateComputerChoice()
 }))
+
+
+
+/** Add Event Listeners */
+

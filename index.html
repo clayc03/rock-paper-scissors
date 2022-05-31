@@ -18,26 +18,22 @@
         </h1>
     </header>
 
-    <section class="gaming-section">
-        <div>
-            <h2>Your Pick:</h2>
-            <button aria-label="Rock" data-choice="0" class="button">rock</button>
-            <button aria-label="Paper" data-choice="1" class="button">paper</button>
-            <button aria-label="Scissors" data-choice="2" class="button">scissors</button>
-        </div>
+    <div class="left-about">
+    <h2>Computer Choice:<span id="computer-choice"></span></h2>
+    <img src="assets/images/game-image.png">
+    </div>
 
-        <div id="game-result"></div>
+    <div class="right-about">
+    <h2>Your Choice:<span id="user-choice"></span></h2>
+    <img src="assets/images/game-image.png">
+    </div>
 
-        <div class="left-about">
-            <img src="assets/images/game-image.png" alt="" id="your-choice">
-            <h2>Your Score: <span id="your-score">0</span></h2>
-        </div>
-
-        <div class="right-about">
-            <img src="assets/images/game-image.png" alt="" id="computer-choice">
-            <h2>Computer Score: <span id="computer-score">0</span></h2>
-        </div>
-    </section>
+    <h2>Your Pick:</h2>
+    <button id="rock">rock</button>
+    <button id="paper">paper</button>
+    <button id="scissors">scissors</button>
+    <br>
+    <h2>Result:<span id="result"></span></h2>
 
     <footer class="footer">This game is intended for project use only - 2022</footer>
 
