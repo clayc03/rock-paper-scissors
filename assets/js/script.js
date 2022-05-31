@@ -2,11 +2,9 @@ const userChoiceDisplay = document.getElementById("user-choice")
 const computerChoiceDisplay = document.getElementById("computer-choice")
 const resultDisplay = document.getElementById("result")
 const possibleChoices = document.querySelectorAll("button")
-//const gameScore = document.getElementById("score")
 let userChoice
 let computerChoice
 let result
-//let score
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     userChoice = e.target.id
@@ -32,7 +30,7 @@ computerChoiceDisplay.innerHTML = computerChoice
 
 function getResult() {
 if (userChoice === computerChoice) {
-    result = 'A Draw!'
+    result = 'Draw!'
 }
 if (userChoice === "rock" && computerChoice === 'paper') {
     result = 'You Lose!'
@@ -50,7 +48,7 @@ if (userChoice === "scissors" && computerChoice === 'rock') {
     result = 'You Lose!'
 }
 if (userChoice=== "scissors" && computerChoice === 'paper') {
-    result = 'You Win'
+    result = 'You Win!'
 }
 resultDisplay.innerHTML = result
 }
