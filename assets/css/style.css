@@ -4,25 +4,46 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-  }
-  
-  header {
+}
+
+header {
     text-align: center;
     font-size: 25px;
     height: 12vh;
     letter-spacing: 2px;
     text-shadow: 0 0 5px black;
-  }
+}
 
-  body {
+body {
     width: 100%;
     margin-top: 10px;
     font-family: Roboto, sans-serif;
     background: #fff;
     color: #333;
-  }
-  
-  .button {
+}
+
+.gaming-section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.left-about {
+    padding-top: 10px;
+    width: 40%;
+    float: left;
+    height: 100%;
+}
+
+.right-about {
+    padding-top: 10px;
+    width: 40%;
+    float: right;
+    height: 100%;
+}
+
+.button {
     background-color: #3dab41;
     border: none;
     color: #fff;
@@ -33,11 +54,11 @@
     border-radius: 5px;
     font-size: 15px;
     cursor: pointer;
-  }
-  
-  .button:hover {
+}
+
+.button:hover {
     background-color: #87CEEB;
-  }  
+}
 
 .footer {
     height: 10vh;
@@ -49,5 +70,4 @@
     right: 0;
     bottom: 0;
     position: absolute;
-  }
-  
+}
