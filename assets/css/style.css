@@ -1,1 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.footer {
+    height: 8vh;
+    padding-top: 25px;
+    width: 100%;
+    text-align: center;
+    background-color: #87CEEB;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  
