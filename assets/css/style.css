@@ -41,7 +41,7 @@ body {
     float: right;
 }
 
-#user-image, #computer-image {
+#game-image {
     width: 60%;
 }
 
@@ -106,7 +106,7 @@ body {
         width: 40%;
         float: left;
     }
-    
+
     .right-about {
         text-align: center;
         padding-top: 10px;
@@ -114,7 +114,8 @@ body {
         float: right;
     }
 
-    #user-image, #computer-image {
+    #user-image,
+    #computer-image {
         width: 60%;
     }
 
