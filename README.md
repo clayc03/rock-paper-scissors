@@ -5,9 +5,9 @@ Rock Paper Scissors is a fun game tradionally played by two people using their h
 
 First one between the user and computer to get to FIVE points win the round. Game will restart and the next challenger can take on the computer. This is a great game for all age groups and easy to learn. So go on over and start playing, this game is so much fun!
 
-![Mockup screenshot]()
+![Mockup screenshot](assets/images/game-cover-image.png)
 
-## [View life website in github pages]() 
+## [View life website in github pages](https://clayc03.github.io/rock-paper-scissors/) 
 
 <u>*Disclaimer - This website is for educational purpose only*</u>
 
@@ -24,30 +24,21 @@ First one between the user and computer to get to FIVE points win the round. Gam
 <hr>
 
 1. ## Features
-This website consists of five pages, four of these pages are accessible from the navigation menu.
-The last page is linked to the contact form and is a submission confirmation page.
+This website consists of a main page, with the full layout of the game on this page. 
 
 Below are the website features:
 
-## Navigation bar
+## Header
 
-* The Navigation bar is consistant on each page:
+* The logo at the top of the page and is centered with the colors of the rock, paper, scissors images used to color coordinate the logo with these images.
 
-    * The logo is on the left side, clicking on the logo will navigate the user back to the home   pages.
-    * The menu list on the right side consists of four links to each page:
-        * Home
-        * Meet Eli
-        * Plans & Pricing
-        * Get in Touch
+## Game selection
 
-## Home page - About Section
-
-* The About section is on the homepage and gives information about the different classes to be offered at Eli King Fitness and also a brief description about the facility where these classes take place. Also on the homepage is the address and a google map for address reference.
+* The buttons to play the game is located just below the logo and the user can make use of these to select what option between rock, paper and scissors to use for each game.
 
 ## Gaming-Section
 
-* This page gives information about the founder Eli King and his experience and qualifications obtained.
-
+* This area shows what choice the user and computer has made and also show the result of who won the round and update the score as well.
 
 ## Footer
 
@@ -59,41 +50,34 @@ Below are the website features:
 
 ## Functionality testing 
 
- I used Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues. I also used [Firefox](https://www.mozilla.org/en-US/firefox/new/) and [Microsoft Edge](https://www.microsoft.com/en-us/edge) to test the funcionality of the website on desktop and mobile compatibility using these websites developer tools.
+ I used Chrome developer tools throughout the project for testing for responsiveness of mobile and desktop. I also used [Firefox](https://www.mozilla.org/en-US/firefox/new/) and [Microsoft Edge](https://www.microsoft.com/en-us/edge) to test the funcionality of the website on desktop and mobile compatibility using these websites developer tools.
  
  [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was helpfull throughout the development of this website.
 
 
 ## Compatibility testing
-* Using Lighthouse developers tools the site was tested across multiple virtual mobile devices. 
 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse) was helpfull throughout the development of this website for mobile and desktop compatibility.
  
-I used a HP Pavilion laptop with Windows 11 Home throughout this project and used 2 x different monitors to connect (Samsung 24 inch and LG 27 inch). I also used my Huawei P30 Pro mobile to check the sites compatibility.
-
-I used the [Wave](https://wave.webaim.org/) website to see if there is any color contrast errors. 
-
-Below is a screenshot of the Plans & Prices page who had the only contrast error for the website, I changed the background from lightblue to lightcyan to correct this error.
-
-![Color contrast performance](/assets/images/wave-contrast.png)
+This project was developed using a HP Pavilion laptop with Windows 11 Home and used also a Samsung 24 inch monitor. I also used my Huawei P30 Pro mobile to check the sites compatibility.
 
 ## Performance testing
 
 I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website.
 
-Below are the final performance results received for both desktop and mobile compatibility in Lighthouse. 
+Below are the final performance results received for compatibility in Lighthouse. 
 
-![Final performance desktop](/assets/images/desktop-performance.png)
-
-![Final performance mobile](/assets/images/mobile-performance.png)
+![Final performance](assets/images/performance-image.png)
 
 ## Validator testing
 
-I run the deployed site address in W3C Validator for HTML (https://validator.w3.org) and in (https://jigsaw.w3.org/css-validator/validator) for CSS and no errors or warnings were returned.
+The deployed site address was run in JSHint for Javascript (JSHint JavaScript Validator), W3C Validator for HTML (https://validator.w3.org) and for CSS in (https://jigsaw.w3.org/css-validator/validator) and no errors or warnings were returned.
 
-![Final performance html](/assets/images/final-html.png)
+![Final performance js](assets/images/js-performance.png)
 
-![Final performance css](/assets/images/final-css.png)
+![Final performance html](assets/images/html-performance.png)
+
+![Final performance css](assets/images/css-performance.png)
 
 [Back to Table of contents](#table-of-contents)
 
@@ -106,6 +90,9 @@ HTML5 is a markup language used for structuring and presenting content on the Wo
 
 **CSS**
 Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.
+
+**Javascript**
+JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries.
 
 **Google fonts**
 Google Fonts is a computer font and web font service owned by Google.
@@ -137,14 +124,15 @@ I used the Code Institutes student template to complete this milestone project: 
 
 * HTML & CSS Ideas:
 
-    * [w3schools.com](https://www.w3schools.com)
-
+    * Game buttons [w3schools.com](https://www.w3schools.com/css/css3_buttons.asp)
+    * Game alert [w3schools.com](https://www.w3schools.com/jsref/met_win_alert.asp)
 
 ### Code
 
-* I used the code from Code Institutes Love Running Milestone Project to add the hero-image to the home page and social media links to the footer.
-* For the Get in Touch contact form I used code from [w3schools](https://www.w3schools.com/howto/howto_css_contact_form.asp)
-
+* I used some of the css code from the project scope from Code Institutes Ultimate Rock, Paper, Scissors to add styling to my gaming section. I also use the code from the footer and slight amend it.
+* For ideas on javascript code for a rock paper scissors game I watched and used code from Kenny Yip Coding  - Learn how to make rock paper scissors in html css and javascript!
+(https://www.youtube.com/watch?v=fIBOydve2f8) and javascript code from Code with Ania Kubów - 3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!)
+https://www.youtube.com/watch?v=RwFeg0cEZvQ
 
 ### Media:
 
@@ -161,23 +149,15 @@ I used the Code Institutes student template to complete this milestone project: 
 
 ## Website screenshots
 
-![project-screenshot]()
+![project-screenshot](assets/images/final-image.png)
 
+![project-screenshot](assets/images/draw-image.png)
 
-![project-screenshot]()
+![project-screenshot](assets/images/win-image.png)
 
+![project-screenshot](assets/images/lose-image.png)
 
-![project-screenshot]()
-
-
-![project-screenshot]()
-
-
-![project-screenshot]()
-
-
-![project-screenshot]()
-
+![project-screenshot](assets/images/game-result-image.png)
 
 [Back to Table of contents](#table-of-contents)
 

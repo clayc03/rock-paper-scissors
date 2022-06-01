@@ -41,8 +41,7 @@ body {
     float: right;
 }
 
-#user-image,
-#computer-image {
+#user-image, #computer-image {
     width: 60%;
 }
 
