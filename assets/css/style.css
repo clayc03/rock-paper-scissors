@@ -30,6 +30,7 @@ body {
 
 
 .left-about {
+    text-align: center;
     padding-top: 10px;
     width: 40%;
     float: left;
@@ -37,10 +38,17 @@ body {
 }
 
 .right-about {
+    text-align: center;
     padding-top: 10px;
     width: 40%;
     float: right;
     height: 100%;
+}
+
+.game-buttons {
+    text-align: center;
+    padding-top: 10px;
+    height: 10vh;
 }
 
 .button {
