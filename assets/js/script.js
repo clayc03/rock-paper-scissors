@@ -6,59 +6,57 @@ let userChoice;
 let computerChoice;
 let result;
 
-var choices = ["rock", "paper", "scissors"];
-
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
-    userChoice = e.target.id
-    userChoiceDisplay.innerHTML = userChoice
-    generateComputerChoice()
-    getResult()
-}))
+    userChoice = e.target.id;
+    userChoiceDisplay.innerHTML = userChoice;
+    generateComputerChoice();
+    getResult();
+}));
 
 function generateComputerChoice () {
-const randomNumber = Math.floor(Math.random() * 3) + 1
+const randomNumber = Math.floor(Math.random() * 3) + 1;
 
 if (randomNumber === 1) {
-    computerChoice = 'rock'
+    computerChoice = 'rock';
 }
 if (randomNumber === 2) {
-    computerChoice = 'paper'
+    computerChoice = 'paper';
 }
 if (randomNumber === 3) {
-    computerChoice = 'scissors'
+    computerChoice = 'scissors';
 }
-computerChoiceDisplay.innerHTML = computerChoice
+computerChoiceDisplay.innerHTML = computerChoice;
 }
 
 function getResult() {
 if (userChoice === computerChoice) {
-    result = 'Draw!'
+    result = 'Draw!';
 }
 if (userChoice === "rock" && computerChoice === 'paper') {
-    result = 'You Lose!'
-    addPoint("computer")
+    result = 'You Lose!';
+    addPoint("computer");
 }
 if (userChoice === "rock" && computerChoice=== 'scissors') {
-    result = 'You Win!'
-    addPoint("user")
+    result = 'You Win!';
+    addPoint("user");
 }
 if (userChoice === "paper" && computerChoice === 'scissors') {
-    result = 'You Lose!'
-    addPoint("computer")
+    result = 'You Lose!';
+    addPoint("computer");
 }
 if (userChoice === "paper" && computerChoice === 'rock') {
-    result = 'You Win!'
-    addPoint("user")
+    result = 'You Win!';
+    addPoint("user");
 }
 if (userChoice === "scissors" && computerChoice === 'rock') {
-    result = 'You Lose!'
-    addPoint("computer")
+    result = 'You Lose!';
+    addPoint("computer");
 }
 if (userChoice=== "scissors" && computerChoice === 'paper') {
-    result = 'You Win!'
-    addPoint("user")
+    result = 'You Win!';
+    addPoint("user");
 }
-resultDisplay.innerHTML = result
+resultDisplay.innerHTML = result;
 }
 
 function addPoint(winner) {

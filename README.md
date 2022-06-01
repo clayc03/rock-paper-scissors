@@ -1,108 +1,184 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# ROCK PAPER SCISSORS
+## Introduction
 
-Welcome clayc03,
+Rock Paper Scissors is a fun game tradionally played by two people using their hands to make the rock paper scissors signs. This game the user and computer will choose one of the three icons (rock, paper, scissors) available for selection. The "rock" beats "scissors", the "scissors" beat "paper" and the "paper" beats "rock"; if both players select the same shape, the game is a draw.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+First one between the user and computer to get to FIVE points win the round. Game will restart and the next challenger can take on the computer. This is a great game for all age groups and easy to learn. So go on over and start playing, this game is so much fun!
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Mockup screenshot]()
 
-## Gitpod Reminders
+## [View life website in github pages]() 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<u>*Disclaimer - This website is for educational purpose only*</u>
 
-`python3 -m http.server`
+<hr>
 
-A blue button should appear to click: _Make Public_,
+## **[Table of Contents](#contents)**
+1. **[Features](#features)**
+2. **[Testing](#testing)**
+3. **[Technology](#technology)**
+4. **[Deployment](#deployment)**
+5. **[Credits](#credits)**
+6. **[Screenshots](#screenshots)**
 
-Another blue button should appear to click: _Open Browser_.
+<hr>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+1. ## Features
+This website consists of five pages, four of these pages are accessible from the navigation menu.
+The last page is linked to the contact form and is a submission confirmation page.
 
-A blue button should appear to click: _Make Public_,
+Below are the website features:
 
-Another blue button should appear to click: _Open Browser_.
+## Navigation bar
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* The Navigation bar is consistant on each page:
 
-To log into the Heroku toolbelt CLI:
+    * The logo is on the left side, clicking on the logo will navigate the user back to the home   pages.
+    * The menu list on the right side consists of four links to each page:
+        * Home
+        * Meet Eli
+        * Plans & Pricing
+        * Get in Touch
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Home page - About Section
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* The About section is on the homepage and gives information about the different classes to be offered at Eli King Fitness and also a brief description about the facility where these classes take place. Also on the homepage is the address and a google map for address reference.
 
-------
+## Gaming-Section
 
-## Release History
+* This page gives information about the founder Eli King and his experience and qualifications obtained.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Footer
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* The Footer gives a description of the game.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+[Back to Table of contents](#table-of-contents)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+2. ## Testing
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Functionality testing 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+ I used Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues. I also used [Firefox](https://www.mozilla.org/en-US/firefox/new/) and [Microsoft Edge](https://www.microsoft.com/en-us/edge) to test the funcionality of the website on desktop and mobile compatibility using these websites developer tools.
+ 
+ [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was helpfull throughout the development of this website.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Compatibility testing
+* Using Lighthouse developers tools the site was tested across multiple virtual mobile devices. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+[Lighthouse](https://developers.google.com/web/tools/lighthouse) was helpfull throughout the development of this website for mobile and desktop compatibility.
+ 
+I used a HP Pavilion laptop with Windows 11 Home throughout this project and used 2 x different monitors to connect (Samsung 24 inch and LG 27 inch). I also used my Huawei P30 Pro mobile to check the sites compatibility.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+I used the [Wave](https://wave.webaim.org/) website to see if there is any color contrast errors. 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Below is a screenshot of the Plans & Prices page who had the only contrast error for the website, I changed the background from lightblue to lightcyan to correct this error.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+![Color contrast performance](/assets/images/wave-contrast.png)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Performance testing
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website.
 
-------
+Below are the final performance results received for both desktop and mobile compatibility in Lighthouse. 
 
-## FAQ about the uptime script
+![Final performance desktop](/assets/images/desktop-performance.png)
 
-**Why have you added this script?**
+![Final performance mobile](/assets/images/mobile-performance.png)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Validator testing
 
-**How will this affect me?**
+I run the deployed site address in W3C Validator for HTML (https://validator.w3.org) and in (https://jigsaw.w3.org/css-validator/validator) for CSS and no errors or warnings were returned.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+![Final performance html](/assets/images/final-html.png)
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![Final performance css](/assets/images/final-css.png)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+[Back to Table of contents](#table-of-contents)
 
-**So….?**
+3. ## Technology
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+For this website I used the following Technology:
 
-**Can I opt out?**
+**HTML5**
+HTML5 is a markup language used for structuring and presenting content on the World Wide Web.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+**CSS**
+Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+**Google fonts**
+Google Fonts is a computer font and web font service owned by Google.
 
-**Anything more?**
+**GitHub**
+A provider of Internet hosting for software development and version control using Git. 
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+**Gitpod**
+An open-source developer platform for remote development.
 
----
+Back to Table of contents
 
-Happy coding!
+
+4. ## Deployment
+
+This milestone project was deployed to Github pages where a repository was created. All html and css code written / changes made was commited and pushed in Gitpod to save in Github.
+
+* To deploy a project I had to:
+  * In Github after creating the repository navigate to the settings tab.
+  * Select the pages link on the left hand side. 
+  * From the sources section click on the Branch button and select Main. 
+  * After selection of the Main Branch the page will provide the link to the deployed site. 
+
+5. ## Credits
+
+## Content
+
+I used the Code Institutes student template to complete this milestone project: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+* HTML & CSS Ideas:
+
+    * [w3schools.com](https://www.w3schools.com)
+
+
+### Code
+
+* I used the code from Code Institutes Love Running Milestone Project to add the hero-image to the home page and social media links to the footer.
+* For the Get in Touch contact form I used code from [w3schools](https://www.w3schools.com/howto/howto_css_contact_form.asp)
+
+
+### Media:
+
+* The image used for this game was sourced from [findicons](https://findicons.com/search/game-rock-paper-scissors)
+
+### Fonts:
+
+*[Google Fonts](https://fonts.google.com/)
+ * font-family: 'Roboto', sans-serif;
+
+[Back to Table of contents](#table-of-contents)
+
+6. ## Screenshots
+
+## Website screenshots
+
+![project-screenshot]()
+
+
+![project-screenshot]()
+
+
+![project-screenshot]()
+
+
+![project-screenshot]()
+
+
+![project-screenshot]()
+
+
+![project-screenshot]()
+
+
+[Back to Table of contents](#table-of-contents)
+
+<hr>
