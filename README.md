@@ -7,7 +7,7 @@ First one between the user and computer to get to FIVE points win the round. Gam
 
 ![Mockup screenshot](assets/images/game-cover-image.png)
 
-## [View life website in github pages](https://clayc03.github.io/rock-paper-scissors/) 
+## [View live website in github pages](https://clayc03.github.io/rock-paper-scissors/) 
 
 <u>*Disclaimer - This website is for educational purpose only*</u>
 
@@ -71,7 +71,7 @@ Below are the final performance results received for compatibility in Lighthouse
 
 ## Validator testing
 
-The deployed site address was run in JSHint for Javascript (JSHint JavaScript Validator), W3C Validator for HTML (https://validator.w3.org) and for CSS in (https://jigsaw.w3.org/css-validator/validator) and no errors or warnings were returned.
+The deployed site address was run in JSHint for Javascript (https://jshint.com/), W3C Validator for HTML (https://validator.w3.org) and for CSS in (https://jigsaw.w3.org/css-validator/validator) and no errors or warnings were returned.
 
 ![Final performance js](assets/images/js-performance.png)
 
