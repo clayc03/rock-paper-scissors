@@ -41,7 +41,8 @@ body {
     float: right;
 }
 
-#game-image {
+#user-image,
+#computer-image {
     width: 60%;
 }
 
