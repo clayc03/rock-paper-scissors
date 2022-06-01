@@ -1,25 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+html {
+    min-height: 100%;
+    position: relative;
 }
 
 header {
     text-align: center;
     font-size: 25px;
-    height: 12vh;
+    height: 10vh;
     letter-spacing: 2px;
     text-shadow: 0 0 5px black;
 }
 
 body {
-    width: 100%;
-    margin-top: 10px;
     font-family: Roboto, sans-serif;
     background: #fff;
     color: #333;
+    margin: 0;
 }
 
 .gaming-section {
@@ -34,7 +32,6 @@ body {
     padding-top: 10px;
     width: 40%;
     float: left;
-    height: 100%;
 }
 
 .right-about {
@@ -42,7 +39,10 @@ body {
     padding-top: 10px;
     width: 40%;
     float: right;
-    height: 100%;
+}
+
+#user-image, #computer-image {
+    width: 60%;
 }
 
 .game-buttons {
@@ -69,13 +69,13 @@ body {
 }
 
 .footer {
-    height: 10vh;
-    padding-top: 25px;
     width: 100%;
     text-align: center;
     background-color: #87CEEB;
-    left: 0;
-    right: 0;
+    padding-top: 10px;
     bottom: 0;
     position: absolute;
+    height: 8vh;
+    font-weight: bold;
+    box-sizing: border-box;
 }
